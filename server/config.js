@@ -9,7 +9,10 @@ module.exports = {
 		secret: 'GOOGLE_API_SECRET',
 		callback: 'http://localhost:3031'
 	},
-	postgres : {
-		dev: 'tcp://USERNAME:PASSWORD@HOST:PORT/DATABASE',
+	postgres: {
+		dev: 'tcp://USERNAME:PASSWORD@HOST:PORT/DATABASE'
+	},
+	redis: {
+		dev: 'redis://USERNAME:PASSWORD@HOST:PORT/'
 	}
 };
